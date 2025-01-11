@@ -236,3 +236,313 @@ border: 0px solid;
     background-color: rgba(255, 0, 0, 0.238);
     
 }
+
+
+/* RECENT NEWS PART--------------------------- */
+.recentnews{
+    margin: 60px 10px 0px 10px;
+
+}
+.recentnews h5{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+
+.recentnews p{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 32px;
+}
+
+.newscard1{
+    display: flex;
+    background-color: white;
+    padding: 48px 48px;
+    border-radius: 24px;
+    border: 0px solid;
+    margin-bottom: 24px;
+}
+
+
+.timedate{
+    display: flex;
+    
+}
+
+.leftimg{
+    border-radius: 50px;
+    border: 0px solid;
+    width: 408px;
+height: 306px;
+}
+
+.righttext h6{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.righttext img{
+    width: 134px;
+height: 40px;
+}
+
+
+.timedate p{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+padding: 12px 12px 0px 0px ;
+
+}
+
+
+.righttext button{
+    border-radius: 8px;
+border: 0px solid;
+background: rgb(0, 106, 80);
+width: 139px;
+height: 48px;
+
+color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: center;
+margin-left:20px ;
+
+
+}
+
+
+.newscard2{
+    display: flex;
+    background-color: white;
+    padding: 48px 48px;
+    border-radius: 24px;
+    border: 0px solid;
+    margin-bottom: 24px;
+}
+
+button:hover{
+    background-color: rgb(255, 0, 0);
+}
+
+/* DONATE SECTION--------------------- */
+.donate{
+    border-radius: 24px;
+
+background: rgb(198, 228, 214);
+margin: 0 20px;
+}
+.donate h5{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+padding-top: 80px;
+margin-bottom: 16px;
+}
+
+.donate p{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+padding: 0px 329px;
+margin-bottom: 24px;
+}
+
+.inputfield{
+    display: flex;
+    justify-content: center;
+
+}
+
+.inputfield input{
+    border: 0px solid;
+    border-radius: 8px 0px 0px 8px;
+    width: 600px;
+height: 55px;
+}
+.subscribebtn{
+    border-radius: 0px 8px 8px 0px;
+    border: 0px solid;
+
+background: rgb(0, 106, 80);
+}
+.subscribebtn a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.subscribebtn:hover{
+    background-color: rgba(252, 9, 9, 0.366);
+}
+
+.donate p{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: center;
+margin-top: 25px;
+padding-bottom: 80px;
+}
+/* 
+----------------------------------- */
+
+.money h5{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.money p{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+margin-top: 24px;
+margin-bottom: 32px;
+}
+
+
+.moneybutton{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.moneybutton button{
+    box-sizing: border-box;
+border: 0px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+
+background: rgb(255, 255, 255);
+width: 240px;
+height: 128px;
+color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+
+}
+
+.moneybutton button:hover{
+    background-color: #FFC239;
+}
+
+.moneyamnt{
+    display: flex;
+    justify-content: center;
+
+}
+
+.moneyamnt input{
+    width: 100%;
+    height: 64px;
+    border-radius: 10px;
+    border: 0px solid;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.money button{
+    border-radius: 8px;
+    border: 0px solid;
+    background: rgb(0, 106, 80);
+    width: 139px;
+    height: 48px;
+    
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-left:20px ;
+}
+
+.middlebtn{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    background-color: white;
+    
+}
+
+.footer h6{
+    padding-top: 50px;
+}
+
+.footericon{
+    display: flex;
+    justify-content: center;
+    padding-top: 64px;
+    gap: 23px;
+    padding-bottom: 50px;
+}
