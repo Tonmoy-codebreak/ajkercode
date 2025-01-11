@@ -189,3 +189,50 @@ border: 0px solid;
     background-color:rgba(219, 24, 24, 0.2)
     
 }
+
+/* YUNUS ER SPEECH */
+.speech{
+    background-color: white;
+    padding: 48px 24px;
+    border-radius: 16px;
+    margin: 0px 40px;
+}
+
+.speech p{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+
+.speech h6{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 12px;
+    margin-bottom: 4px;
+}
+
+
+
+.speechimg{
+   
+    height: 64px;
+    width: 64px;
+    background-repeat: no-repeat;
+    position: static;
+
+}
+
+.speech:hover{
+    background-color: rgba(255, 0, 0, 0.238);
+    
+}
