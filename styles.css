@@ -1,14 +1,16 @@
     *{
-        margin: 0px;
-        padding: 0px;
+        margin: 0px ;
+        padding: 0px 20px;
+        
     }
 
     .bannerbox{
         background-color: rgb(198, 228, 214);
-        display: flex;
+        display: flex;  
         border-radius: 24px;
         justify-content: space-between;
         padding: 80px 100px;
+        margin: 20px;
     }
 
     .bannerbox p{
@@ -59,3 +61,131 @@
         padding-left: 64px;
 
     }
+
+    /* THE VISION OF FUTURE '''''''''''''''''''''''''*/
+    .vision{
+        margin-top: 50px;
+    }
+
+.vision h5{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.vision p{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+
+    margin-top: 24px;
+    margin-bottom: 32px;
+    }
+
+.hovercard{
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+        padding-bottom: 32px;
+        
+        
+    }
+
+    
+    .cardh6{
+        color: rgba(14, 14, 14, 0.8);
+        font-family: Fira Sans;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-top: 24px;
+    }
+    
+    
+    
+    .cardp{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.cardbtn{
+    border-radius: 8px;
+    background: rgb(84, 144, 245);
+    border: 0px solid;
+    width: 122px;
+    height: 41px;
+    
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;
+    margin-left: 15px;
+    
+}
+
+.cardbtn:hover{
+    background-color: rgb(0, 106, 80);
+}
+.card1{
+    background-color: rgba(84, 144, 245, 0.2);
+    width: 410.67px;
+height: 325px;
+padding-bottom: 32px;
+border-radius: 16px;
+border: 0px solid;
+
+}
+
+
+.card2{
+    background-color: rgb(198, 228, 214);
+    width: 410.67px;
+height: 325px;
+padding-bottom: 32px;
+border-radius: 16px;
+border: 0px solid;
+}
+
+.card3{
+    background-color: rgb(247, 235, 207);
+    width: 410.67px;
+height: 325px;
+padding-bottom: 32px;
+border-radius: 16px;
+border: 0px solid;
+}
+
+.hovercard img{
+    margin-top: 33px;
+}
+
+.card1:hover{
+    background-color:rgba(219, 24, 24, 0.2)
+    
+}
+
+.card2:hover{
+    background-color:rgba(219, 24, 24, 0.2)
+    
+}
+
+.card3:hover{
+    background-color:rgba(219, 24, 24, 0.2)
+    
+}
